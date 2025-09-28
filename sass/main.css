@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_class {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.main_class {
+  background-color: #fab1a0;
+}
+
+.main_class h1 {
+  color: #6c5ce7;
+}
+.main_class h1:hover {
+  color: crimson;
+}
+.main_class h1::after {
+  content: " bbbbfiuffb";
+  color: darkgreen;
+}
+.main_class p {
+  color: #55efc4;
+  font-size: 5rem;
+}
+.main_class p:hover {
+  color: antiquewhite;
+}
+
+.main_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_div {
+  width: 30rem;
+  height: 50rem;
+  background-color: #e84393;
+  color: #6c5ce7;
+  text-transform: uppercase;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}/*# sourceMappingURL=main.css.map */

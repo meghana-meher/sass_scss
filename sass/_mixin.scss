@@ -1,0 +1,14 @@
+@mixin something($par1, $par2){
+    width:30rem;
+    height:50rem;
+    background-color: #e84393;
+    color:#6c5ce7;
+    text-transform:$par1;
+    font-size: $par2;
+}
+@mixin flexprops{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
